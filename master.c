@@ -77,7 +77,7 @@ int main(){
    	}
  
    	char frame[100];
-   	frame =  sprintf()
+   	sprintf(frame,"%d",f);
 
  	//MMU thread
    	if((mid=fork())==0){
